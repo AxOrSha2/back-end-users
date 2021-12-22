@@ -1,0 +1,37 @@
+{
+  "name": "back-end-users",
+  "version": "1.0.0",
+  "description": "back-end-users",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxOrSha2/back-end-users.git"
+  },
+  "keywords": [
+    "Bakc",
+    "end",
+    "users",
+    "Taller",
+    "Carranza"
+  ],
+  "author": "Cristian Andres Ariza Riaño",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxOrSha2/back-end-users/issues"
+  },
+  "homepage": "https://github.com/AxOrSha2/back-end-users#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
